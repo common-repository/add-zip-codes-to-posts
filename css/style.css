@@ -1,0 +1,153 @@
+.select-item {
+	width: 28%;
+	margin: 6px 20px 0 0;
+}
+
+#field-state,
+#field-city,
+#field-zip {
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+#savesZip .inside {
+	overflow: hidden;
+}
+
+.inside .add-zip-code {
+    margin: 15px 0 5px 0;
+	text-align: right;
+}
+
+.wrap-selects {
+	overflow: inherit;
+}
+
+#wrapZips {
+	width: 98%;
+	margin: 0 auto;
+}
+
+#poststuff .zipRow {
+	display: none;
+	width: 100%;
+	height: 60px;
+	background: #fff;
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.row {
+	width: 27%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;;
+	float: left;
+	margin: 9px 13px;
+	border: 1px solid #ddd;
+}
+
+.name-tag {
+	width: 20%;
+	float: left;
+	padding: 0 15px;
+	color: #303030;
+	background: #F4F2F2;
+	border-right: 1px solid #ddd;
+}
+
+.row .value-tag {
+	width: 66%;
+	float: left;
+	padding: 5px;
+	color: #303030;
+	border: none;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 6px;
+}
+
+.zip-row .row {
+	position: relative;
+}
+
+#poststuff .zipRow .del-zip-code,
+#delSavedRow {
+	height: 40px;
+	margin: 10px;
+	text-align: right;
+}
+
+#wpbody-content .save-select {
+	height: 30px;
+	margin: 5px 0 0 3px;
+}
+
+.select-item {
+	position: relative;
+	display: inline-block;
+}
+
+.select-item i {
+  display: block;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding: 0 0 2px 3px;
+  color: #0E5166;
+}
+
+.wait {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -5px;
+	display: none;
+	width: 55px;
+	height: 55px;
+	margin: 0 auto;
+	background: url('../img/ajax-loader.gif') no-repeat 50% 50%;
+	z-index: 10;
+}
+
+.zip-row {
+	width: 100%;
+    min-height: 60px;
+	background: #fff;
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* inputs in settings */
+.post-type-settings {
+	width: 20%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-shadow: 0 0 5px rgba(0,0,0, 0.1) inset;
+}
+
+.post-type-settings label:first-child {
+	color: #0E5166;
+}
+
+.post-type-settings label {
+	color: #777;
+	font-size: 17px;
+	font-style: italic;
+}
+
+.post-type-settings input[type=checkbox] {
+	height: 25px;
+	width: 25px;
+	margin: 10px;
+	border-radius: 8px;
+}
+
+.post-type-settings input[type=checkbox]:checked:before {
+	margin: 13px 0 0 -19px;
+	font: 400 60px/0 dashicons;
+}
